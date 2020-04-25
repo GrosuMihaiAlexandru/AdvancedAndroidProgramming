@@ -1,0 +1,2 @@
+rootProject.name='More complex UI programmatically'
+include ':app'

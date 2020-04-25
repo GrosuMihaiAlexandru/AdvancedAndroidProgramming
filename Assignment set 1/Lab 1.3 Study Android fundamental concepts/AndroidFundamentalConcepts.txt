@@ -1,0 +1,23 @@
+1. What programming languages you can use for Android app development?
+    - Android apps can be written using Kotlin, Java, and C++ languages.
+2. What is .apk file?
+    - An .apk file (Android package) is an archive file which contains all the contents of an Android app. It is the result of the compilation of code along with any
+    data and resource file.
+3. How Android system runs apps?
+    - It runs like a multi-user Linux system in which each app is a different user with a unique Linus user ID. Each process has its own virtual machine, so all apps
+    run independently from other apps. The android system starts a Linux process when any of the app components must be executed and shuts down the process when it's
+    no longer needed or when the system has to recover memory for other apps.
+4. Name four types of Android components. Describe each.
+    - activities: an activity is a single screen with a user interface. 
+    - services: a service is a component that runs in background to perform a long-running operation or work for remote processes.
+    Unlike an activity, services don't have a UI.
+    - broadcast receivers: a brodcast receiver is a component which delivers events to the app without the user interaction. It allows the app to respond to system-wide
+    broadcast announcements. The system can deliver broadcasts even to apps which are not running.
+    - content providers: content providers manage access to a central repository of data.
+5. What is manifest file and what is its purpose?
+    - The manifest is a file in which all the app components must be declared and must be at the root of the app project directory. It also contains user permissions,
+    declares the minimum api, declares hardware and software used or required by the app and declares the API libraries the app needs to be linked against.
+6. What are resources? Why they are needed?
+    - Resources are files such as images, audio files, and anything relating to the visual presentation of the app. 
+    - Using app resources makes it easy to update various characteristics of your app without modifying code. Providing resources enables you to optimize the app for a
+    variery of of device configurations, like different languages and screen sizes.
